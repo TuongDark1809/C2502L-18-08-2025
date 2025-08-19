@@ -1,0 +1,110 @@
+.cart {
+    width: 100%;
+}
+
+.cart__header {
+    height: 75px;
+    width: 100%;
+    background-color: rgb(37, 83, 150);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart__header-title {
+    height: 75px;
+    width: 250px;
+    font-family: roboto;
+    font-size: 1.875rem;
+    padding-top: 17.5px;
+    margin-left: 200px;
+}
+
+.cart__body {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.cart__body-title {
+    font-family: roboto;
+    font-size: 2.375rem;
+    padding-bottom: 37.5px;
+}
+
+.cart__body-display-list {
+    border: 2.5px solid rgba(128, 128, 128, 0.5);
+    border-radius: 25px;
+    padding: 0px 12.5px 12.5px;
+    max-width: 825px;
+}
+
+.cart__product {
+    border-bottom: 2.5px solid rgba(128, 128, 128, 0.5);
+    padding: 12.5px 0px;
+}
+
+.cart__product img {
+    background-color: rgba(128, 128, 128, 0.125);
+    border-radius: 25px;
+    padding: 6.25px;
+    width: 200px;
+    height: 200px;
+}
+
+.cart__product-name {
+    font-family: roboto;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-left: 12.5px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    width: 400px;
+    max-width: 400px;
+    height: auto;
+}
+
+.cart__product-price {
+    font-family: roboto;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 12.5px;
+    padding-top: 12.5px;
+}
+
+.cart__product-count {
+    font-family: roboto;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.cart__body-display-sum {
+    border: 2.5px solid rgba(128, 128, 128, 0.5);
+    border-radius: 25px;
+    margin-left: 25px;
+    padding: 25px 12.5px 12.5px;
+    width: 450px;
+}
+
+.cart__body-display-sum p {
+    font-family: roboto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.cart__body-display-calc {
+    font-family: roboto;
+    font-size: 1.125rem;
+    gap: 12.5px;
+    padding-bottom: 12.5px;
+    border-bottom: 2.5px solid rgba(128, 128, 128, 0.5);
+}
+
+.cart__body-display-total {
+    font-family: roboto;
+    font-size: 1.25rem;
+    padding-top: 12.5px;
+    padding-bottom: 25px;
+}

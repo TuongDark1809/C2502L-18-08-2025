@@ -1,0 +1,109 @@
+.pl {
+    width: 100%;
+}
+
+.pl__header {
+    height: 75px;
+    width: 100%;
+    background-color: rgb(37, 83, 150);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pl__header-title {
+    height: 75px;
+    width: 250px;
+    font-family: roboto;
+    font-size: 1.875rem;
+    padding-top: 17.5px;
+    margin-left: 650px;
+}
+
+.pl__header-buttons {
+    margin-left: auto;
+}
+
+.pl__body {
+    padding-left: 50px;
+    padding-top: 25px;
+    border-bottom: 2.75px solid grey;
+}
+
+.pl__body-title {
+    font-family: roboto;
+    font-size: 3.25rem;
+    padding-bottom: 12.5px;
+}
+
+.pl__body-description {
+    font-family: roboto;
+    font-size: 1rem;
+    color: rgba(128, 128, 128, 0.875);
+    width: 450px;
+    padding-bottom: 50px;
+}
+
+.pl__display-nav {
+    font-family: roboto;
+    font-size: 1.25rem;
+    padding: 7.5px 12.5px;
+    border-bottom: 2.75px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pl__display-nav-icons {
+    gap: 10px;
+}
+
+.pl__list-sidebar {
+    width: 200px;
+    padding: 0 50px 0 25px;
+    border-right: 2.75px solid grey;
+}
+
+.pl__list-sidebar-title {
+    font-family: roboto;
+    font-size: 1.75rem;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.pl__list-display {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    row-gap: 25px;
+    padding: 50px 42px 50px 50px;
+}
+
+.pl__list-display-product {
+    width: 350px;
+    border: 2.5px solid grey;
+    border-radius: 25px;
+}
+
+.pl__list-display-product img {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(40, 148, 250, 0.25);
+    border-radius: 25px;
+    margin: 25px 25px 12.5px 25px;
+}
+
+.pl__product-name {
+    font-family: roboto;
+    font-size: 1rem;
+    width: 200px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 12.5px;
+}
+
+.pl__product-price {
+    font-family: roboto;
+    font-size: 0.875rem;
+    width: 100px;
+    margin-bottom: 12.5px;
+}

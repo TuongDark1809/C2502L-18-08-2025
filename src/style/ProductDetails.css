@@ -1,0 +1,114 @@
+.pd {
+    width: 100%;
+}
+
+.pd__header {
+    height: 75px;
+    width: 100%;
+    background-color: rgb(37, 83, 150);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pd__header-title {
+    height: 75px;
+    width: 250px;
+    font-family: roboto;
+    font-size: 1.875rem;
+    padding-top: 17.5px;
+    margin-left: 650px;
+}
+
+.pd__header-buttons {
+    margin-left: auto;
+}
+
+.pd__body {
+    padding-top: 37.5px;
+    padding-left: 37.5px;
+    padding-bottom: 50px;
+}
+
+.pd__body img {
+    padding: 20px;
+    background-color: rgba(40, 148, 250, 0.25);
+    border-radius: 25px;
+    max-width: 458px;
+}
+
+.pd__body-details {
+    height: 136.7px;
+    border-bottom: 2.5px solid rgba(128, 128, 128, 0.25);
+    margin-left: 50px;
+}
+
+.pd__body-category {
+    font-family: roboto;
+    font-size: 1.375rem;
+    color: grey;
+    padding-bottom: 12.5px;
+}
+
+.pd__body-title {
+    font-family: roboto;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 12.5px;
+    max-width: 940.86px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pd__body-shipping {
+    gap: 12.5px;
+    font-family: roboto;
+    color: grey;
+    padding-bottom: 12.5px;
+}
+
+.pd__body-shipping p {
+    padding-top: 1px;
+}
+
+.pd__body-prices {
+    margin-bottom: 25px;
+    margin-left: 50px;
+    gap: 37.5px;
+}
+
+.pd__body-prices-title {
+    font-family: roboto;
+    font-size: 1.25rem;
+    border-bottom: 1.25px solid grey;
+    margin-bottom: 12.5px;
+}
+
+.pd__body-prices-number {
+    font-family: roboto;
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+
+.pd__body-count {
+    margin-left: 50px;
+    margin-bottom: 37.5px;
+    gap: 525px;
+}
+
+.pd__body-amount {
+    gap: 20px;
+}
+
+.pd__body-amount p {
+    font-family: roboto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 9px;
+}
+
+.pd__body-btn-group {
+    margin-left: 50px;
+    gap: 50px;
+}
